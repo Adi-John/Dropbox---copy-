@@ -1,0 +1,108 @@
+body{
+    height: 1000vh;
+    background-color: grey;
+    background: #F8FFE8;
+background: linear-gradient(to right, #F8FFE8 0%, #E3F5AB 33%, #B7DF2D 100%);
+background: #F6F8F9;
+background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+
+}
+.bar{
+    width: 100%;
+    height: 10vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.logo img{
+    border-radius: 75%;
+}
+.car1{
+    width: 225vh;
+    height: 80vh;
+    background-color: green;
+    border-radius: 25%;
+
+    
+}
+.car1 img{
+width: 250vh;
+object-fit: cover;
+object-position: right;
+
+}
+.logo a{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    padding-top: 4vh;
+    padding-left: 1vh;
+    font-style:italic ;
+    font-weight: 900;
+    font-size:x-large;
+    /* background: #FF0000;
+background: linear-gradient(to left, #FF0000 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+}
+.car2{
+    width: 225vh;
+    height:50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.car2 img{
+    border-radius: 0%;
+}
+.page p{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center; 
+    background: #FF0000;
+    background: linear-gradient(to left, #FF0000 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+
+}
+.menu button{
+color: rgb(13, 13, 14);
+font-size: x-large;
+display: flex;
+margin-top: 3vh;
+justify-content: space-around;
+      font-weight: 700;
+}
+.menu{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.car3{
+
+    width: 100vh;
+    height: 80vh;
+    background: #030521;
+background: linear-gradient(to top, #030521 0%, #C4CFCD 100%);
+
+    display: flex;
+    justify-content: center;
+}
+.car0{
+    margin-top: 30vh;
+    width: 225vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.car3 img{
+    padding-top: 15vh;
+}
+.logo p {
+    margin-top: -3px;
+}
